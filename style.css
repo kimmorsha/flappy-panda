@@ -36,7 +36,14 @@ body {
     height: 130px;
     width: 50px;
     background-color: #2B591B;
-    right: -50px; 
+    right: -100px; 
+} 
+.pole2 {
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    background-color: #2B591B;
+    right: -300px; 
 } 
 .pole3 {
     position: absolute;
@@ -47,7 +54,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
    
-    right: -350px;
+    right: -550px;
 }
 .pole4 {
     position: absolute;
@@ -56,16 +63,10 @@ body {
     width: 75px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-   
-    right: -550px;
+   padding: 25px;
+    right: -800px;
 }
-.pole2 {
-    position: absolute;
-    height: 10s0px;
-    width: 50px;
-    background-color: #2B591B;
-    right: -200px; 
-} 
+
 #pole_6 {
     top:-40%;
 
@@ -75,7 +76,7 @@ body {
    
 }
 #pole_7 {
-    top: -40%;
+    top: -70%;
 
 }
 #pole_8 {
