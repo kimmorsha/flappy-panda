@@ -9,10 +9,22 @@ body {
     height: 400px;
     width: 90%;
      border: 4px solid black;
-    background-color: #76FF45;
+   /* background-color: #76FF45;*/
     margin-left: 4%;
     overflow: hidden;
-   
+   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130527/clouds-full.png);
+-webkit-animation: backgroundScroll 10s linear infinite;
+animation: backgroundScroll 10s linear infinite;
+background-size: contain;
+}
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+        
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
 }
 
 #panda {

@@ -85,7 +85,7 @@ $(function () {
             }
           }
             if(pole4_current_position > (container_width - panda_left)) {
-            if(!passed3) {
+            if(!passed4) {
               score.text(parseInt(score.text()) + 1);
               passed4 = true;
             }
