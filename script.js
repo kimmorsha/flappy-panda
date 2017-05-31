@@ -55,6 +55,8 @@ $(function () {
           parseInt(panda.css('top')) <= 0 ||
           (parseInt(panda.css('top')) > (container_height - panda_height))) {
 
+          console.log("YES");
+
           stop_the_game();
 
         } else {
@@ -277,7 +279,7 @@ $(function () {
       location.reload();
     });
 
-    function collision($div1, $div2) {
+    function collision($div1, $div2) {//div 1 is panda
         var x1 = $div1.offset().left;
         var y1 = $div1.offset().top;
         var h1 = $div1.outerHeight(true);

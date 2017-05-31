@@ -1,3 +1,38 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <title>CSS Sprite Animation</title>
+  <style>
+    body {
+      padding: 20px;
+    }
+ 
+    #spriteContainer {
+      width: 60px;
+      height: 50px;
+      display: block;
+      background-image: url("pandasprite2.png");
+      animation: sprite .3s steps(4) infinite;
+    }
+ 
+    @keyframes sprite {
+     100% {
+       background-position: -250px;
+     }
+    }
+  </style>
+</head>
+ 
+<body>
+  <div id=spriteContainer></div>
+ 
+  <script src="/js/prefixfree.min.js"></script>
+</body>
+ 
+</html>
+
+
 body {
     height: 100%;
     width: 100%;
